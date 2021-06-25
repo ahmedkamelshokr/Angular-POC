@@ -39,6 +39,11 @@ export class ProducService {
 
     console.log(product);
   }
+  saveProduct(product: Iproduct) {
+
+    console.log(product);
+  }
+
   private handleError(err: HttpErrorResponse): Observable<never> {
     // in a real world app, we may send the server to some remote logging infrastructure
     // instead of just logging it to the console
