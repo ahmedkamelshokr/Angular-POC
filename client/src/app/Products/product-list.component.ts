@@ -5,7 +5,7 @@ import { ProducService } from "./Product.Service";
 
 @Component({
   selector: 'pm-products',
-  templateUrl: './products-list.component.html',
+  templateUrl: './product-list.component.html',
   styleUrls: ['./product-list.Component.css']
 })
 

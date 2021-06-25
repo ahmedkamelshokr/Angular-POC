@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "sXgOV94fjQ2IfX3hhNGfeAakt3BUKRiODdy7lnNWn/T3e74bxmZLq54WXZ+iWb3OugW7I5/kEt9iYLwQUWeExA==",
+  "dgSpecHash": "b3f7+JyWi7/jLWw81aqTGbEziMcD4ppUu5L5nRwbifoYFMrm/gqcN2rxViZnkWiho0RiEiydQj9MySRtR12TFg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ahmed.kamel\\source\\repos\\udemy\\udemy.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\A Kamel\\projects\\CDP\\Angular-POC\\udemy.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ahmed.kamel\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.13\\microsoft.netcore.app.host.win-x64.3.1.13.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ahmed.kamel\\source\\repos\\udemy\\udemy.csproj",
+      "projectUniqueName": "C:\\A Kamel\\projects\\CDP\\Angular-POC\\udemy.csproj",
       "projectName": "udemy",
-      "projectPath": "C:\\Users\\ahmed.kamel\\source\\repos\\udemy\\udemy.csproj",
+      "projectPath": "C:\\A Kamel\\projects\\CDP\\Angular-POC\\udemy.csproj",
       "packagesPath": "C:\\Users\\ahmed.kamel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ahmed.kamel\\source\\repos\\udemy\\obj\\",
+      "outputPath": "C:\\A Kamel\\projects\\CDP\\Angular-POC\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -64,6 +64,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[3.1.13, 3.1.13]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"

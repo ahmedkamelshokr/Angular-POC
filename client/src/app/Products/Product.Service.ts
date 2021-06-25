@@ -2,22 +2,27 @@ import { HttpClient, HttpErrorResponse, HttpResponse } from "@angular/common/htt
 import { Injectable } from "@angular/core";
 import { Observable, throwError } from "rxjs";
 import { Iproduct } from "./IProduct";
-import { catchError, map, tap } from 'rxjs/operators'
+import { catchError, map, tap } from 'rxjs/operators';
+import { of } from 'rxjs';
+
 @Injectable({ providedIn: 'root' })
 export class ProducService {
   /**
    *
    */
   private producturl = 'assets/products/products.json';
-  constructor(private http: HttpClient) {
 
+  constructor(private http: HttpClient) {
 
   }
   getProducts(): Observable<Iproduct[]> {
 
     return this.http.get<Iproduct[]>(this.producturl)
       .pipe(
-        tap(data => console.log(JSON.stringify(data))),
+        tap(data => {
+          console.log(data);
+
+        }),
         catchError(this.handleError)
       );
 
@@ -30,6 +35,10 @@ export class ProducService {
       );
   }
 
+  createProduct(product: Iproduct) {
+
+    console.log(product);
+  }
   private handleError(err: HttpErrorResponse): Observable<never> {
     // in a real world app, we may send the server to some remote logging infrastructure
     // instead of just logging it to the console
